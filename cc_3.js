@@ -29,9 +29,4 @@ customers[0].email="luzpagan@newemail.com";
 customers[0].purchases.push("camera");
 
 //Step5
-    customers.forEach(customer =>
-    {
-    console.log(`Name: ${customer.name}`);
-    console.log(`Email: ${customer.email}`);
-    console.log(`Total Purchases: ${customer.purchases.length}`)
-    });
+    customers.forEach(obj => console.log(`Name: ${obj.name} | Email: ${obj.email} | Total Purchases: ${obj.purchases.length}`));
