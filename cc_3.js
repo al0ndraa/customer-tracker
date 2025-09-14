@@ -22,7 +22,7 @@ customers.push ({
 });
 
 //Step3P2
-const firstcustomers = customers.shift();
+const firstCustomers = customers.shift();
 
 //Step4
 customers[0].email="luzpagan@newemail.com";
